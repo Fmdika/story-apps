@@ -1,0 +1,37 @@
+{
+  "name": "Story Apps",
+  "short_name": "Story Apps",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#4CAF50",
+  "description": "Story Sharing Apps",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/images/pwalogo.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/images/pwalogo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Add New Story",
+      "short_name": "Add Story",
+      "description": "Add Your Story",
+      "url": "/#/add-story",
+      "icons": [
+        {
+          "src": "/images/pwalogo.png",
+          "sizes": "96x96",
+          "type": "image/png"
+        }
+      ]
+    }
+  ]
+}

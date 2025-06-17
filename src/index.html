@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="/images/applogo.png" />
+    <link rel="icon" href="/images/applogo.png" type="image/png" />
+
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="theme-color" content="#317EFB" />
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta
+      name="apple-mobile-web-app-status-bar-style"
+      content="black-translucent"
+    />
+    <meta name="apple-mobile-web-app-title" content="Story Apps" />
+    <link rel="apple-touch-icon" href="/images/pwalogo.png" />
+
+    <title>Story Apps</title>
+  </head>
+  <body>
+    <a href="#main-content" class="skip-to-content">Langsung ke konten utama</a>
+
+    <header>
+      <div class="main-header container">
+        <a class="brand-name" href="#/">
+          <img
+            src="/images/applogo.png"
+            alt="Logo"
+            style="
+              width: 24px;
+              height: 24px;
+              object-fit: cover;
+              border-radius: 4px;
+              vertical-align: middle;
+              margin-right: 8px;
+            "
+          />
+          Story Apps
+        </a>
+
+        <nav id="navigation-drawer" class="navigation-drawer">
+          <ul id="nav-list" class="nav-list">
+            <li><a href="#/home">Home</a></li>
+            <li><a href="#/add-story">Add Story</a></li>
+            <li><a href="#/saved">Saved Story</a></li>
+            <li>
+              <button id="push-subscription-btn">Get Notified</button>
+            </li>
+            <li id="logout-item" style="display: none">
+              <button id="logout-button" class="logout-button">Logout</button>
+            </li>
+          </ul>
+        </nav>
+        <button id="drawer-button" class="drawer-button">☰</button>
+      </div>
+    </header>
+
+    <main
+      id="main-content"
+      class="main-content"
+      view-transition-name="main-content"
+      tabindex="-1"
+    ></main>
+
+    <footer class="footer">
+      <div class="footer-content">
+        <p>© 2025 Story Apps by <a href="#" target="_blank">fmdikaa</a></p>
+      </div>
+    </footer>
+  </body>
+</html>

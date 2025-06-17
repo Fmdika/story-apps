@@ -1,0 +1,5 @@
+MAP_SERVICE_API_KEY=https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}
+https://stamen.com
+http://creativecommons.org/licenses/by/3.0
+https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png
+
